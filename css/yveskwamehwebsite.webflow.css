@@ -814,6 +814,11 @@ a {
     overflow: hidden;
   }
 
+  .section.footer {
+    padding-top: 48px;
+    padding-bottom: 0px;
+  }
+
   .main-image-wrapper {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
