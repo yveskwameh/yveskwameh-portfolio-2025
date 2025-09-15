@@ -110,11 +110,16 @@ a {
 
 .section.hero {
   margin-top: 64px;
+  padding-bottom: 48px;
 }
 
 .section.footer {
   padding-top: 80px;
   padding-bottom: 0;
+}
+
+.section.portfolio {
+  padding-top: 48px;
 }
 
 .main-image-wrapper {
@@ -816,7 +821,6 @@ a {
 
   .section.footer {
     padding-top: 48px;
-    padding-bottom: 0px;
   }
 
   .main-image-wrapper {
@@ -889,6 +893,10 @@ a {
     align-items: flex-start;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .slider-wrap {
+    width: 310px;
   }
 
   .navbar {
