@@ -109,7 +109,6 @@ a {
 }
 
 .section.hero {
-  margin-top: 64px;
   padding-bottom: 48px;
 }
 
@@ -727,8 +726,16 @@ a {
   }
 
   .main-container {
+    max-width: 720px;
     margin-left: 32px;
     margin-right: 32px;
+  }
+
+  .section {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
   }
 
   .paragraph.experience.year._2023 {
@@ -884,7 +891,7 @@ a {
   }
 
   .video {
-    height: 230px;
+    height: 300px;
   }
 
   .content-wrapper.serivces {
