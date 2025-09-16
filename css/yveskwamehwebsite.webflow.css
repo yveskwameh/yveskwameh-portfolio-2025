@@ -696,6 +696,30 @@ a {
   width: 140px;
 }
 
+.email-cta {
+  color: var(--green);
+  border-radius: 99px;
+  padding: 4px 6px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.email-cta:hover {
+  color: var(--green);
+  background-color: #07716714;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 500;
+}
+
+.email-wrapper {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .head-copy-wrapper {
     grid-column-gap: 8px;
