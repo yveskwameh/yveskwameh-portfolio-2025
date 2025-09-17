@@ -253,6 +253,12 @@ a {
   margin-top: 22px;
 }
 
+.button-container.portfolio {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .social-proof {
   width: 140px;
   display: block;
@@ -717,6 +723,10 @@ a {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+}
+
+.code-icon {
+  height: 20px;
 }
 
 @media screen and (max-width: 991px) {
