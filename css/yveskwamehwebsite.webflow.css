@@ -199,9 +199,13 @@ a {
   line-height: 20px;
 }
 
+.paragraph._12pxsmall {
+  font-size: 40px;
+  line-height: 18px;
+}
+
 .icon-wrapper {
   background-color: #fff;
-  border: 1px solid #d5d7da;
   border-radius: 99px;
   justify-content: center;
   align-items: center;
