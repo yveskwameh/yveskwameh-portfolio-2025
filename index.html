@@ -154,7 +154,8 @@
           <div class="portfolio-wrapper">
             <div class="portfolio-item">
               <a href="#" class="video-wrap w-inline-block">
-                <div data-poster-url="videos/Tems-Video-Reel-poster-00001.jpg" data-video-urls="videos/Tems-Video-Reel-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video" style="background-image:url(&quot;videos/Tems-Video-Reel-poster-00001.jpg&quot;)"><video id="4edecb99-a58c-d298-9c0d-eb9f18252399-video" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover" style="display: none;">
+                <div data-poster-url="videos/Tems-Video-Reel-poster-00001.jpg" data-video-urls="videos/Tems-Video-Reel-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video"><video id="4edecb99-a58c-d298-9c0d-eb9f18252399-video" autoplay="true" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                    <source src="videos/Tems-Video-Reel-transcode.webm" data-wf-ignore="true">
                   </video></div>
               </a>
               <div scroll-in-view="yes" data-w-id="75666278-a1f6-79c4-2029-3575efa41503" class="head-copy-wrapper">
@@ -164,7 +165,8 @@
             </div>
             <div class="portfolio-item">
               <a href="#" class="video-wrap w-inline-block">
-                <div data-poster-url="videos/altabrio/altabrio-dashboard-poster.png" data-video-urls="videos/altabrio/altabrio-dashboard-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video" style="background-image:url(&quot;videos/altabrio/altabrio-dashboard-poster.png&quot;)"><video id="b39f3de3-3683-1a74-3a26-cffd268bd7da-video" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover" style="display: none;">
+                <div data-poster-url="videos/altabrio/altabrio-dashboard-poster.png" data-video-urls="videos/altabrio/altabrio-dashboard-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video"><video id="b39f3de3-3683-1a74-3a26-cffd268bd7da-video" autoplay="true" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                    <source src="videos/altabrio/altabrio-dashboard-transcode.webm" data-wf-ignore="true">
                   </video></div>
               </a>
               <div scroll-in-view="yes" class="head-copy-wrapper">
@@ -174,7 +176,8 @@
             </div>
             <div class="portfolio-item">
               <a href="https://scrollhousestudio.com/" target="_blank" class="video-wrap w-inline-block">
-                <div data-poster-url="videos/scrollhouse/scrollhouse-website-poster.png" data-video-urls="videos/scrollhouse/scrollhouse-website-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video" style="background-image:url(&quot;videos/scrollhouse/scrollhouse-website-poster.png&quot;)"><video id="c10a6d45-3ec9-dac3-4faa-3cdf66a1d039-video" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover" style="display: none;">
+                <div data-poster-url="videos/scrollhouse/scrollhouse-website-poster.png" data-video-urls="videos/scrollhouse/scrollhouse-website-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video"><video id="c10a6d45-3ec9-dac3-4faa-3cdf66a1d039-video" autoplay="true" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                    <source src="videos/scrollhouse/scrollhouse-website-transcode.webm" data-wf-ignore="true">
                   </video></div>
               </a>
               <div scroll-in-view="yes" class="head-copy-wrapper">
@@ -184,7 +187,8 @@
             </div>
             <div class="portfolio-item">
               <a href="https://www.boh-cfo.com/" target="_blank" class="video-wrap w-inline-block">
-                <div data-poster-url="videos/boh-financial/boh-financial-website-poster.png" data-video-urls="videos/boh-financial/boh-financial-website-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video" style="background-image:url(&quot;videos/boh-financial/boh-financial-website-poster.png&quot;)"><video id="293dae44-8693-380c-8995-eaee33f06a99-video" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover" style="display: none;">
+                <div data-poster-url="videos/boh-financial/boh-financial-website-poster.png" data-video-urls="videos/boh-financial/boh-financial-website-transcode.webm" data-lazy-load="true" data-wf-ignore="true" class="video w-background-video w-background-video-atom lazy-video"><video id="293dae44-8693-380c-8995-eaee33f06a99-video" autoplay="true" loop="" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                    <source src="videos/boh-financial/boh-financial-website-transcode.webm" data-wf-ignore="true">
                   </video></div>
               </a>
               <div scroll-in-view="yes" class="head-copy-wrapper">
@@ -573,7 +577,6 @@
                             videoContainer.classList.remove('loading');
                             videoContainer.classList.add('loaded');
                             video.style.display = 'block';
-                            video.play().catch(e => console.log('Video autoplay prevented:', e));
                           };
                           
                           const handleError = () => {
