@@ -282,7 +282,7 @@ a {
   border-radius: 999px;
   justify-content: flex-start;
   align-items: center;
-  height: 44.6641px;
+  min-height: 44.6641px;
   padding-left: 16px;
   padding-right: 16px;
   text-decoration: none;
@@ -821,8 +821,61 @@ a {
 }
 
 .cal-link {
-  min-height: 107px;
+  min-width: 107px;
 }
+
+.faq-item {
+  cursor: pointer;
+  border-top: 1px solid #e6e6e6;
+  flex-flow: column;
+  max-width: 570px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.faq-question {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.faq-answer {
+  border-left: 1px solid var(--color-2);
+  margin-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: block;
+  overflow: hidden;
+}
+
+.faq-answer.open {
+  max-height: 500px;
+  display: block;
+  overflow: visible;
+}
+
+.faq-wrapper {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.faq-wrap {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex-flow: column;
+  display: flex;
+}
+
+.faq-icon {
+  width: 20px;
+  height: 20px;
+}
+
 
 @media screen and (max-width: 991px) {
   .head-copy-wrapper {
@@ -900,6 +953,15 @@ a {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
   }
+
+  .faq-wrapper {
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+
+  .faq-wrap {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -927,6 +989,10 @@ a {
   .image-wrapper {
     grid-template-columns: 1fr 1fr;
   }
+
+  .faq-wrap {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -941,7 +1007,6 @@ a {
     justify-content: flex-start;
     align-self: auto;
     align-items: stretch;
-    max-width: 120px;
   }
 
   .main-container {
@@ -957,14 +1022,6 @@ a {
 
   .section.footer {
     padding-top: 48px;
-  }
-
-  .main-image-wrapper {
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    flex-flow: row;
-    justify-content: flex-start;
-    align-items: flex-start;
   }
 
   .heading {
@@ -1052,6 +1109,10 @@ a {
 
   .lottie-animation {
     height: 40px;
+  }
+
+  .faq-wrap {
+    width: auto;
   }
 }
 
